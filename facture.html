@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+   <div class="container-fluid">
+      <div class="row">
+         <div class="bg-light col-lg-2 col-md-1 col-2 d-flex flex-column" style="height:100vh">
+            <div class="h-50">
+               <div class="hearder pb-3">
+                  <img src="enval.png" class="w-100 d-none d-lg-block" alt="">
+               </div>
+               <nav class="">
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a class="text-decoration-none py-2 d-flex text-black-50" href="Dashboard.html"><i class="bi bi-grid-fill px-2"></i><span class="d-none d-lg-block"> Dashboard</span></a></li>
+                    <li class="active mb-2"><a class="text-decoration-none py-2 d-flex text-black-50" href="facture.html"><i class="fa-solid fa-file-invoice-dollar px-2"></i><span class="d-none d-lg-block">Facture</span></a></li>
+                    <li class="mb-2"><a class="text-decoration-none py-2 d-flex text-black-50" href="command.html"><i class="fa-solid fa-car px-2 "></i><span class="d-none d-lg-block">Commande</span></a></li>
+                    <li class="mb-2"><a class="text-decoration-none py-2 d-flex text-black-50" href="suivi.html"><i class="bi bi-bag-fill px-2"></i><span class="d-none d-lg-block">Suivi</span></a></li>
+                    <li class="mb-2"><a class="text-decoration-none py-2 d-flex text-black-50" href="service.html"><i class="bi bi-chat-right-text-fill px-2"></i><span class="d-none d-lg-block">Service Client</span></a></li>
+                </ul>
+               </nav>
+           </div>
+           <div class="d-flex flex-column justify-content-end h-50">
+               <nav class="">
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a class="text-decoration-none py-2 d-flex text-black-50" href="#"><i class="bi bi-gear-fill px-2"></i><span class="d-none d-lg-block">Parametres</span></a></li>
+                    <li class="mb-2"><a class="text-decoration-none py-2 d-flex text-black-50" href="index.html"><i class="bi bi-box-arrow-left px-2"></i><span class="d-none d-lg-block">Déconnexion</span></a></li>
+                </ul>
+               </nav>
+           </div>
+         </div>
+         <div class="col-lg-10 col-md-11 col-10 coll  pe-0" >
+             <div class="navbar container-fluid bg-white m-0 p-0">
+                  <div class="container-fluid navbar-brand pe- d-flex justify-content-end">                 
+                     <div class="d-flex px-1">
+                        <i class="bi bi-bell"></i>
+                        <div class="bg-danger border rounded-circle" style="height:7px; width:7px;margin: 7px 0 0 -8px;" ></div>
+                     </div>
+                     <div class="text-center p-0">
+                        <img src="logo.png" class="rounded-circle w-50" alt="">
+                     </div>
+                  </div>
+                 </div>
+                  <div class="container-fluid rounded-3 bg-white my-3 py-5">
+                     <div class="table-responsive">
+                        <table class="table text-black-50">
+                           <thead>
+                             <tr>
+                                 <th class="border border-start-0 border-end-0 fs-2" colspan="4">Facture</th>
+                                 <th class="border border-end-0 border-start-0 ">
+                                 <!-- <input type="search" class="form-control border-0 bg-light w-75 float-end me-4" placeholder="&#xF52A" style="font-family:Arial, bootstrap-icons;"> -->
+                                 <div class="input-group justify-content-center w-100">
+                                    <span class="input-group-text border-0 rounded-3 w-75" ><i class="bi bi-search"></i>
+                                    <input type="search" class="form-control border-0 bg-light w-100" placeholder="" aria-label="search" aria-describedby="basic-addon1"></span>
+                                 </div>
+                                 </th>
+                             </tr>
+                           </thead>   
+                           <tbody>
+                               <tr>
+                                  <td class="border border-start-0 text-center">Factures</td>
+                                  <td class="border text-center" colspan="2">Laboratoire</td>
+                                  <td class="border text-center">Date</td>
+                                  <td class="border border-end-0 text-center">Cliquez pour voir le rapport</td>
+                               </tr>
+                               <tr>
+                                  <td class="border border-start-0 text-start ps-4">000112</td>
+                                  <td class="border text-center" colspan="2">Enval</td>
+                                  <td class="border text-center" >10/03/2023</td>
+                                  <td class="border border-end-0 text-center"><button class="btn bouton text-white px-5">voir</button></td>
+                               </tr>
+                               <tr>
+                                  <td class="border border-start-0 text-start ps-4">000112</td>
+                                  <td class="border text-center" colspan="2"></td>
+                                  <td class="border text-center" ></td>
+                                  <td class="border border-end-0 text-center"><button class="btn bouton text-white px-5">voir</button></td>
+                               </tr>
+                               <tr>
+                                  <td class="border border-start-0 text-start ps-4">000112</td>
+                                  <td class="border text-center" colspan="2"></td>
+                                  <td class="border text-center" ></td>
+                                  <td class="border border-end-0 text-center"><button class="btn bouton text-white px-5">voir</button></td>
+                               </tr>
+                               <tr>
+                                  <td class="border border-start-0 text-start ps-4">000112</td>
+                                  <td class="border text-center" colspan="2"></td>
+                                  <td class="border text-center" ></td>
+                                  <td class="border border-end-0 text-center"><button class="btn bouton text-white px-5">voir</button></td>
+                               </tr>
+                               <tr>
+                                  <td class="border border-start-0 text-start ps-4">000112</td>
+                                  <td class="border text-center" colspan="2"></td>
+                                  <td class="border text-center" ></td>
+                                  <td class="border border-end-0 text-center"><button class="btn bouton text-white px-5">voir</button></td>
+                               </tr>
+                               <tr>
+                                  <td class="border border-start-0 text-start ps-4">000112</td>
+                                  <td class="border text-center" colspan="2"></td>
+                                  <td class="border text-center" ></td>
+                                  <td class="border border-end-0 text-center"><button class="btn bouton text-white px-5">voir</button></td>
+                               </tr>
+                               <tr>
+                                  <td class="border border-start-0 text-start ps-4">000112</td>
+                                  <td class="border text-center" colspan="2"></td>
+                                  <td class="border text-center" ></td>
+                                  <td class="border border-end-0 text-center"><button class="btn bouton text-white px-5">voir</button></td>
+                               </tr>
+                               <tr>
+                                  <td class="border border-start-0 text-start ps-4">000112</td>
+                                  <td class="border text-center" colspan="2"></td>
+                                  <td class="border text-center" ></td>
+                                  <td class="border border-end-0 text-center"><button class="btn bouton text-white px-5">voir</button></td>
+                               </tr>
+                               <tr>
+                                  <td class="border border-start-0 text-start ps-4">000112</td>
+                                  <td class="border text-center" colspan="2"></td>
+                                  <td class="border text-center" ></td>
+                                  <td class="border border-end-0 text-center"><button class="btn bouton text-white px-5">voir</button></td>
+                               </tr>
+                               <tr>
+                                  <td class="border border-start-0 border-bottom-0 text-center"></td>
+                                  <td class="border text-center border-bottom-0" colspan="2"></td>
+                                  <td class="border text-center border-bottom-0" ></td>
+                                  <td class="border border-end-0 border-bottom-0 text-center"></td>
+                               </tr>
+                           </tbody>
+                         </table>
+                     </div>
+                  </div> 
+         </div>
+
+      </div>
+
+   </div>
+         
+</body>
+</html>

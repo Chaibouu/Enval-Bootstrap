@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+   <div class="container-fluid">
+      <div class="row">
+         <div class="bg-light col-lg-2 col-md-1 col-2 d-flex flex-column">
+            <div class="h-50">
+               <div class="hearder pb-3">
+                  <img src="enval.png" class="w-100 d-none d-lg-block" alt="">
+               </div>
+               <nav class="">
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a class="text-decoration-none py-2 d-flex text-black-50" href="Dashboard.html"><i class="bi bi-grid-fill px-2"></i><span class="d-none d-lg-block"> Dashboard</span></a></li>
+                    <li class="mb-2"><a class="text-decoration-none py-2 d-flex text-black-50" href="facture.html"><i class="fa-solid fa-file-invoice-dollar px-2"></i><span class="d-none d-lg-block">Facture</span></a></li>
+                    <li class="mb-2"><a class="text-decoration-none py-2 d-flex text-black-50" href="command.html"><i class="fa-solid fa-car px-2 "></i><span class="d-none d-lg-block">Commande</span></a></li>
+                    <li class="mb-2"><a class="text-decoration-none py-2 d-flex text-black-50" href="suivi.html"><i class="bi bi-bag-fill px-2"></i><span class="d-none d-lg-block">Suivi</span></a></li>
+                    <li class="mb-2"><a class="text-decoration-none py-2 d-flex text-black-50" href="service.html"><i class="bi bi-chat-right-text-fill px-2"></i><span class="d-none d-lg-block">Service Client</span></a></li>
+                </ul>
+               </nav>
+           </div>
+           <div class="d-flex flex-column justify-content-end h-50">
+               <nav class="">
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a class="text-decoration-none py-2 d-flex text-black-50" href="#"><i class="bi bi-gear-fill px-2"></i><span class="d-none d-lg-block">Parametres</span></a></li>
+                    <li class="mb-2"><a class="text-decoration-none py-2 d-flex text-black-50" href="index.html"><i class="bi bi-box-arrow-left px-2"></i><span class="d-none d-lg-block">Déconnexion</span></a></li>
+                </ul>
+               </nav>
+           </div>
+         </div>
+         <div class="col-lg-10 col-md-11 col-10 coll  pe-0" >
+             <div class="navbar container-fluid bg-white m-0 p-0">
+                <div class="container-fluid navbar-brand pe- d-flex justify-content-end">                 
+                    <div class="d-flex px-1">
+                       <i class="bi bi-bell"></i>
+                       <div class="bg-danger border rounded-circle" style="height:7px; width:7px;margin: 7px 0 0 -8px;" ></div>
+                    </div>
+                    <div class="text-center p-0">
+                       <img src="logo.png" class="rounded-circle w-50" alt="">
+                    </div>
+                </div>
+                </div>
+                 <p class="text-center fs-4 m-0 text-black-50"> <strong>Rapport :</strong>  R-TE202303001</p>
+                 <div class="container-fluid rounded-3 bg-white  mb-4 me-5">
+                    <img class=" mt-3 ms-3" style="width: 200px; height:120px;" src="lubrifiant.png" alt="">
+                    <h1 class="text-center text-secondary my-5 fs-5">Rapport d'Analyse (Moteur)</h1>
+                    <div class="table-responsive">
+                        <table class="table border border-black table-responsive" style="font-size: 11px;">
+                            <thead>
+                                <tr  class="coll border border-top-0 border-start-0 border-end-0">
+                                    <th colspan="4">Information Client </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th class="border border-0 pb-1">Nom du Client :</th>
+                                    <td class="border border-0 pb-1">BOLUDA</td>
+                                    <th class="border border-0 pb-1">Site de Travail :</th>
+                                    <td class="border border-0 pb-1">ABIDJAN</td>
+                                </tr>
+                                <tr>
+                                    <th class="border border-0 py-1">Nom du Navire :</th>
+                                    <td class="border border-0 py-1">V8 SUPERENZO</td>
+                                    <th class="border border-0 py-1">Compartiment :</th>
+                                    <td class="border border-0 py-1">MOOTEUR PRINCIPAL BABORD</td>
+                                </tr>
+                                <tr>
+                                    <th class="border border-0 py-1">Marque :</th>
+                                    <td class="border border-0 py-1">CATERPILLAR</td>
+                                    <th class="border border-0 py-1">Marque huile :</th>
+                                    <td class="border border-0 py-1">PREMIUM</td>
+                                </tr>
+                                <tr>
+                                    <th class="border border-0 pt-1">Numéro de serie :</th>
+                                    <td class="border border-0 pt-1"></td>
+                                    <th class="border border-0 pt-1">Grade huile :</th>
+                                    <td class="border border-0 pt-1">20W50</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                      </div>
+                    
+
+                      <div class="table-responsive">
+                        <table class="table border border-black table-responsive" style="font-size: 11px;">
+                            <thead>
+                                <tr class="coll border border-top-0 border-start-0 border-end-0">
+                                    <th colspan="5">Information Echantillons </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th class="border-bottom-0 w-50 pb-1">Code échantillon :</th>
+                                    <td class="text-center border border-bottom-0 py-1">06-269-0030</td>
+                                    <td class="text-center border border-bottom-0 py-1">06-196-0014</td>
+                                    <td class="text-center border border-bottom-0 py-1">06-115-0016</td>
+                                    <td class="text-center border-bottom-0 py-1">05-316-0020</td>
+                                </tr>
+                                <tr>
+                                    <th class="border-bottom-0 border-top-0 py-1">Date de prélèvement :</th>
+                                    <td class="text-center border border-bottom-0 border-top-0 py-1">01/09/2022</td>
+                                    <td class="text-center border border-bottom-0 border-top-0 py-1">11/07/2022</td>
+                                    <td class="text-center border border-bottom-0 border-top-0 py-1">15/04/2022</td>
+                                    <td class="text-center border-bottom-0 border-top-0 py-1">18/11/2021</td>
+                                </tr>
+                                <tr>
+                                    <th class="border-bottom-0 border-top-0 py-1">Date d'analyse :</th>
+                                    <td class="text-center border border-bottom-0 border-top-0 py-1">28/09/2022</td>
+                                    <td class="text-center border border-bottom-0 border-top-0 py-1">21/07/2022</td>
+                                    <td class="text-center border border-bottom-0 border-top-0 py-1">25/04/2022</td>
+                                    <td class="text-center border-bottom-0 border-top-0 py-1">18/11/2021</td>
+                                </tr>
+                                <tr>
+                                    <th class="border-bottom-0 border-top-0 py-1">Compte horaire H :</th>
+                                    <td class="text-center border border-bottom-0 border-top-0 py-1">-</td>
+                                    <td class="text-center border border-bottom-0 border-top-0 py-1">-</td>
+                                    <td class="text-center border border-bottom-0 border-top-0 py-1">-</td>
+                                    <td class="text-center border-bottom-0 border-top-0 py-1">-</td>
+                                </tr>
+                                <tr>
+                                    <th class="border-bottom-0 border-top-0 py-1">Age huile H :</th>
+                                    <td class="text-center border border-bottom-0 border-top-0 py-1">-</td>
+                                    <td class="text-center border border-bottom-0 border-top-0 py-1">-</td>
+                                    <td class="text-center border border-bottom-0 border-top-0 py-1">-</td>
+                                    <td class="text-center border-bottom-0 border-top-0 py-1">-</td>
+                                </tr>
+                                <tr>
+                                    <th class="border-bottom-0 border-top-0 py-1">Vidange :</th>
+                                    <td class="text-center border border-bottom-0 border-top-0 py-1">-</td>
+                                    <td class="text-center border border-bottom-0 border-top-0 py-1">-</td>
+                                    <td class="text-center border border-bottom-0 border-top-0 py-1">-</td>
+                                    <td class="text-center border-bottom-0 border-top-0 py-1">-</td>
+                                </tr>
+                                <tr>
+                                    <th class="border-bottom-0 border-top-0 py-1">Appoint :</th>
+                                    <td class="text-center border border-bottom-0 border-top-0 py-1">40</td>
+                                    <td class="text-center border border-bottom-0 border-top-0 py-1">29</td>
+                                    <td class="text-center border border-bottom-0 border-top-0 py-1">35.7</td>
+                                    <td class="text-center border-bottom-0 border-top-0 py-1">127</td>
+                                </tr>
+                                <tr>
+                                    <th class="border-top-0 pt-1">Filtre changé :</th>
+                                    <td class="text-center border border-bottom-0 border-top-0 pt-1">-</td>
+                                    <td class="text-center border border-bottom-0 border-top-0 pt-1">-</td>
+                                    <td class="text-center border border-bottom-0 border-top-0 pt-1">-</td>
+                                    <td class="text-center border-top-0 pt-1">-</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                      </div>
+                   
+                    
+                    <div class="table-responsive">
+                        <table class="table border border-black table-responsive "style="font-size: 12px;">
+                            <thead>
+                                <tr class="coll">
+                                    <th class="" colspan="2">Paramètres </th>
+                                    <th class="text-center" colspan="2">Méthodes </th>
+                                    <th class="text-center" colspan="2">Unités </th>
+                                    <th class="text-center">Limites </th>
+                                    <th class="text-center border border-black" colspan="4">Résultats </th>
+                                </tr>
+                                <tr class="" style="background-color: rgb(218, 216, 214);">
+                                    <th colspan="12">Metals/ Wear/ Contaminants/ Additives </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="pb-1 border border-start-0 border-end-0" colspan="2">Aluminium</td>
+                                    <td class="pb-1 border text-center border-start-0 border-end-0" colspan="2">ASTM D5185</td>
+                                    <td class="pb-1 border text-center border-start-0 border-end-0" colspan="2">ppm</td>
+                                    <td class="pb-1 border text-center"><8/16<</td>
+                                    <td class="pb-1 border text-center">1,6</td>
+                                    <td class="pb-1 border text-center">1</td>
+                                    <td class="pb-1 border text-center">0</td>
+                                    <td class="pb-1 border border-end-0 text-center">1.32</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0" colspan="2">Chrome</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ASTM D5185</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ppm</td>
+                                    <td class="py-1 border text-center"><5/25<</td>
+                                    <td class="py-1 border text-center">0.2</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border border-end-0  text-center">0.22</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0" colspan="2">Cuivre</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ASTM D5185</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ppm</td>
+                                    <td class="py-1 border text-center"><15/45<</td>
+                                    <td class="py-1 border text-center bg-danger">178</td>
+                                    <td class="py-1 border text-center bg-danger">204</td>
+                                    <td class="py-1 border text-center bg-danger">141</td>
+                                    <td class="py-1 border border-end-0  text-center bg-danger">288</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0" colspan="2">Etain</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ASTM D5185</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ppm</td>
+                                    <td class="py-1 border text-center"><15/30<</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border border-end-0  text-center">0.28</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0" colspan="2">Fer</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ASTM D5185</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ppm</td>
+                                    <td class="py-1 border text-center"><45/95<</td>
+                                    <td class="py-1 border text-center">12.6</td>
+                                    <td class="py-1 border text-center">13</td>
+                                    <td class="py-1 border text-center">5.43</td>
+                                    <td class="py-1 border border-end-0  text-center">10.2</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0" colspan="2">Nickel</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ASTM D5185</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ppm</td>
+                                    <td class="py-1 border text-center"><5/15<</td>
+                                    <td class="py-1 border text-center">1.2</td>
+                                    <td class="py-1 border text-center">1</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border border-end-0  text-center">0</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0" colspan="2">Chrome</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ASTM D5185</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ppm</td>
+                                    <td class="py-1 border text-center"><25/80<</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border text-center">1</td>
+                                    <td class="py-1 border text-center">0.80</td>
+                                    <td class="py-1 border border-end-0  text-center">0.67</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0" colspan="2">Silicium</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ASTM D5185</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ppm</td>
+                                    <td class="py-1 border text-center"><20/40<</td>
+                                    <td class="py-1 border text-center">3.58</td>
+                                    <td class="py-1 border text-center">3</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border border-end-0  text-center">2.38</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0" colspan="2">Titan</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ASTM D5185</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ppm</td>
+                                    <td class="py-1 border text-center"><10</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border border-end-0  text-center">0</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0" colspan="2">Vadanium</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ASTM D5185</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ppm</td>
+                                    <td class="py-1 border text-center"><5</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border border-end-0  text-center">0</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0" colspan="2">Argent</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ASTM D5185</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ppm</td>
+                                    <td class="py-1 border text-center"><10</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border border-end-0  text-center">0</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0" colspan="2">Cadmium</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ASTM D5185</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ppm</td>
+                                    <td class="py-1 border text-center"><10</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border border-end-0  text-center">0</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0" colspan="2">Sodium</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ASTM D5185</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ppm</td>
+                                    <td class="py-1 border text-center">-</td>
+                                    <td class="py-1 border text-center tdorange"></td>
+                                    <td class="py-1 border text-center tdorange"></td>
+                                    <td class="py-1 border text-center tdorange"></td>
+                                    <td class="py-1 border border-end-0  text-center bg-danger"></td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0" colspan="2">Calcium</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ASTM D5185</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ppm</td>
+                                    <td class="py-1 border text-center">-</td>
+                                    <td class="py-1 border text-center">3577</td>
+                                    <td class="py-1 border text-center">2895</td>
+                                    <td class="py-1 border text-center">1158</td>
+                                    <td class="py-1 border border-end-0  text-center">3220</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0" colspan="2">Magnesium</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ASTM D5185</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ppm</td>
+                                    <td class="py-1 border text-center">-</td>
+                                    <td class="py-1 border text-center">16.7</td>
+                                    <td class="py-1 border text-center">18</td>
+                                    <td class="py-1 border text-center">30.4</td>
+                                    <td class="py-1 border border-end-0  text-center">162</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0" colspan="2">Phosphore</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ASTM D5185</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ppm</td>
+                                    <td class="py-1 border text-center">-</td>
+                                    <td class="py-1 border text-center">756</td>
+                                    <td class="py-1 border text-center">713</td>
+                                    <td class="py-1 border text-center">712</td>
+                                    <td class="py-1 border border-end-0  text-center">727</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0 border-bottom-0" colspan="2">Zinc</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0 border-bottom-0" colspan="2">ASTM D5185</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0 border-bottom-0" colspan="2">ppm</td>
+                                    <td class="py-1 border text-center border-bottom-0">-</td>
+                                    <td class="py-1 border text-center border-bottom-0">808</td>
+                                    <td class="py-1 border text-center border-bottom-0">588</td>
+                                    <td class="py-1 border text-center border-bottom-0">596</td>
+                                    <td class="py-1 border border-end-0  text-center border-bottom-0">753</td>
+                                </tr>
+                                <tr class="border border-black" style="background-color: rgb(218, 216, 214);">
+                                    <th colspan="12">Oil Conditions / Particule count</th>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0" colspan="2">Viscosité à 100°</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ASTM D445</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">mm2/s</td>
+                                    <td class="py-1 border text-center"><12,5 / 21<</td>
+                                    <td class="py-1 border text-center tdorange">18.2</td>
+                                    <td class="py-1 border text-center tdorange">18.1</td>
+                                    <td class="py-1 border text-center tdorange">17.6</td>
+                                    <td class="py-1 border border-end-0  text-center bg-danger">20.3</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0" colspan="2">TBN</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ASTM D2896</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">mgKOH/g</td>
+                                    <td class="py-1 border text-center"></td>
+                                    <td class="py-1 border text-center">5.69</td>
+                                    <td class="py-1 border text-center">3.21</td>
+                                    <td class="py-1 border text-center">4.47</td>
+                                    <td class="py-1 border border-end-0  text-center">9</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0" colspan="2">Point éclair</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ASTM D3828</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">°C</td>
+                                    <td class="py-1 border text-center">>200</td>
+                                    <td class="py-1 border text-center">220</td>
+                                    <td class="py-1 border text-center bg-danger">182</td>
+                                    <td class="py-1 border text-center">218</td>
+                                    <td class="py-1 border border-end-0  text-center">220</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0" colspan="2">Suie</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ASTM E2412</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">ufm</td>
+                                    <td class="py-1 border text-center"><60</td>
+                                    <td class="py-1 border text-center">5.77</td>
+                                    <td class="py-1 border text-center">15.1</td>
+                                    <td class="py-1 border text-center">0</td>
+                                    <td class="py-1 border border-end-0  text-center">16.4</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1 border border-start-0 border-end-0" colspan="2">Eau</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">Crackle Test</td>
+                                    <td class="py-1 border text-center border-start-0 border-end-0" colspan="2">%</td>
+                                    <td class="py-1 border text-center">N</td>
+                                    <td class="py-1 border text-center">N</td>
+                                    <td class="py-1 border text-center">N</td>
+                                    <td class="py-1 border text-center">N</td>
+                                    <td class="py-1 border border-end-0  text-center">N</td>
+                                </tr>
+                                <tr>
+                                    <td class="pt-1 border border-bottom-0 border border-0" colspan="2">Dilusion</td>
+                                    <td class="pt-1 border border-bottom-0 text-center border border-0" colspan="2"></td>
+                                    <td class="pt-1 border border-bottom-0 text-center border border-0" colspan="2"></td>
+                                    <td class="pt-1 border border-bottom-0 text-center">-</td>
+                                    <td class="pt-1 border border-bottom-0 text-center">N</td>
+                                    <td class="pt-1 border border-bottom-0 text-center">N</td>
+                                    <td class="pt-1 border border-bottom-0 text-center">N</td>
+                                    <td class="pt-1 border border-bottom-0 border-end-0 text-center">N</td>
+                                </tr>
+    
+    
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="container-fluid d-md-flex  px-2">
+                        <div class="mx-5 w-75" style="width:600px; height: 110px;background: linear-gradient(90deg,green,orange,red);">
+                           <!-- <img src="couleur.png" class="w-100" alt=""> -->
+                           <h1 class="text-end py-4">X</h1>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Commentaire :</strong>Le taux de Cuivre reste très élevé. Le Sodium toujours aussi élevé : à suivre.
+                            Vérifier ce compartiment et réparer si nécessaire. Voir les causes de présence de Sodium dans l’huile. Changer l’huile et le filtre. Refaire u prélèvement pour contrôle.</p><br>
+                            <p style="font-size:13px">
+                                Diagnostic établi sous réserve de représentativité de l’échantillon et des informations fournies.
+                            </p>
+
+                        </div>
+                    </div>
+                  </div> 
+         </div>
+
+      </div>
+
+   </div>
+         
+</body>
+</html>

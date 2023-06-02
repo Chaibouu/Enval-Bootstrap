@@ -1,0 +1,95 @@
+.coll{
+    background-color: #D0E9EF;
+}
+ul li {
+  border-radius: 10px;
+}
+ul li:hover{
+    background-color: #D0E9EF;
+   
+}
+.active{
+  background-color: #D0E9EF;
+  
+}
+
+.bouton{
+  background-color: #4A96A6;
+ 
+}
+.bouton:hover{
+  background-color: #4A96A6;
+ 
+}
+
+.mw{
+    max-width: 1500px;
+}
+table .tdorange{
+  background-color: orange;
+}
+.dd{
+  background: linear-gradient(90deg,green,orange,red);
+
+}
+svg circle{
+  animation: circle 2s forwards;
+  
+}
+svg{
+  transform: rotate(-222deg);
+  margin-top: 60px;
+  margin-left: 16px;
+  margin-right: auto;
+}
+span .tt{
+  margin-top: 50px;
+}
+.circle-container{
+ 
+  height: 150px;
+  width: 150px;
+}
+div .bar {
+  background-color:hsl(0, 0%, 100%);
+  position: relative;
+  
+}
+
+
+div .bar:hover {
+  background-color: #4A96A6;
+}
+.tooltip{
+  position: relative;
+}
+
+.tooltiptext{
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    font-size: 9px;
+}
+.point{
+  height: 7px;
+  width: 7px;
+  background-color:blue;
+  border-radius: 100%;
+
+}
+
+.bar:hover .tooltiptext{
+  visibility: visible;
+}  
+
+
+
+
+
+
